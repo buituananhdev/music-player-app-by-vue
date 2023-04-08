@@ -249,7 +249,7 @@ export default{
   padding: 48px;
   width: 75%;
   height: 68vh;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   border-radius: 24px;
   position: relative;
   display: flex;

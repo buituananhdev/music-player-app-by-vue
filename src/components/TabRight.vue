@@ -1,6 +1,6 @@
 <template>
+    <h3>DANH SÁCH PHÁT</h3>
     <div class="tabright__container">
-        <h3>DANH SÁCH PHÁT</h3>
         <ul class="list_songs" v-for="song in list_songs" :key="song.encodeId">
             <li :class="song.encodeId" class="song" @click="ChooseSong(song)">
                 <span class="index_song">{{ ++index_song }}</span>
@@ -36,6 +36,9 @@ export default {
 </script>
 
 <style scoped>
+h3{
+    margin-left: 24px;
+}
 .active{
     background: linear-gradient(to right, #dff6ea, #233329); 
     border-radius: 5px;
